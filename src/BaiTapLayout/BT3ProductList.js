@@ -5,15 +5,18 @@ export default class BT3ProductList extends Component {
     render() {
         return (
             <div class="container">
-                <div >
-                <div >
+                <div className="row" >
+                <div className="col-3 my-5">
                     <BT3ProductItem></BT3ProductItem>
                 </div>
-                <div >
+                <div className="col-3 my-5">
                     <BT3ProductItem />
                 </div>
-                <div >
-                    <BT3ProductItem />
+                <div className="col-3 my-5">
+                    <BT3ProductItem/>
+                </div>
+                <div className="col-3 my-5">
+                    <BT3ProductItem/>
                 </div>
 
                 </div>

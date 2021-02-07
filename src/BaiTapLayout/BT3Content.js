@@ -8,11 +8,9 @@ export default class BT3Content extends Component {
     render() {
         return (
             <div class="container">
-                <div className="row">
-                    <div>
-                        <BT3Carousel />
+                <div>
+                <BT3Carousel />
                         <BT3ProductList/>
-                    </div>
                 </div>
             </div>
 
